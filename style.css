@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  height: 100%;
+}
+
+/* header */
+.menu-btn {
+  color: rgb(53, 48, 48);
+  font-size: 21px;
+  display: none;
+  cursor: pointer;
+}
+.navbar {
+  padding: 19px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 999;
+  background-color: #fff3f3;
+  box-shadow: 0 0 14px rgba(0, 0, 0, 0.3);
+}
+.navbar .logo h1 {
+  margin-left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 0, 0);
+}
+.navbar .menu li {
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a {
+  display: block;
+  color: rgb(68, 66, 66);
+  margin-top: 12px;
+  margin-right: 17px;
+  border-bottom: 4px solid transparent;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: solid;
+}
+.navbar .menu li .active {
+  border-bottom: 1px solid rgb(128, 23, 23);
+}
+.navbar .menu li a i {
+  color: rgb(128, 23, 23);
+}
+.navbar .menu li a:hover {
+  border-bottom: 1px solid rgb(128, 23, 23);
+}
+/* content */
+.content {
+  background-image: url(shopping.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  color: rgb(41, 36, 36);
+  height: 90.5vh;
+}
+.content h1 {
+  font-size: 40px;
+  color: black;
+}
+.content p {
+  font-size: 24px;
+  color: black;
+}
+.products {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  padding: 12px;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.head {
+  color: rgb(10, 12, 156);
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+#card {
+  border: 1px solid rgb(139, 136, 136);
+}
+.card-price {
+  color: red;
+}
+#image{
+  aspect-ratio: 2/2;
+}
+/* footer */
+footer {
+  color: #fff;
+  background-color: black;
+  text-align: center;
+  line-height: 10vh;
+}
+.call {
+  color: #fff;
+}
